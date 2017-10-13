@@ -3,55 +3,55 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://blackroot.eu/about/</loc>
+    <loc>https://rooty.github.io/about/</loc>
   </url>
   
   <url>
-    <loc>https://blackroot.eu/post/vivamus-lacus-mauris/</loc>
+    <loc>https://rooty.github.io/post/vivamus-lacus-mauris/</loc>
     <lastmod>2013-06-17T12:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://blackroot.eu/service/service3/</loc>
+    <loc>https://rooty.github.io/service/service3/</loc>
   </url>
   
   <url>
-    <loc>https://blackroot.eu/categories/</loc>
+    <loc>https://rooty.github.io/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://blackroot.eu/service/service1/</loc>
+    <loc>https://rooty.github.io/service/service1/</loc>
   </url>
   
   <url>
-    <loc>https://blackroot.eu/</loc>
-    <lastmod>2013-06-17T12:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://blackroot.eu/post/</loc>
+    <loc>https://rooty.github.io/</loc>
     <lastmod>2013-06-17T12:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://blackroot.eu/service/service4/</loc>
-  </url>
-  
-  <url>
-    <loc>https://blackroot.eu/service/</loc>
+    <loc>https://rooty.github.io/post/</loc>
+    <lastmod>2013-06-17T12:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://blackroot.eu/tags/</loc>
+    <loc>https://rooty.github.io/service/service4/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rooty.github.io/service/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://blackroot.eu/service/service2/</loc>
+    <loc>https://rooty.github.io/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rooty.github.io/service/service2/</loc>
   </url>
   
 </urlset>
