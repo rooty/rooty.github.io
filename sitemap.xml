@@ -12,10 +12,6 @@
   </url>
   
   <url>
-    <loc>https://rooty.github.io/service/service3/</loc>
-  </url>
-  
-  <url>
     <loc>https://rooty.github.io/</loc>
     <lastmod>2013-06-17T12:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -27,7 +23,11 @@
   </url>
   
   <url>
-    <loc>https://rooty.github.io/service/service1/</loc>
+    <loc>https://rooty.github.io/service/service3/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rooty.github.io/service/service4/</loc>
   </url>
   
   <url>
@@ -37,7 +37,7 @@
   </url>
   
   <url>
-    <loc>https://rooty.github.io/service/service4/</loc>
+    <loc>https://rooty.github.io/service/service1/</loc>
   </url>
   
   <url>
