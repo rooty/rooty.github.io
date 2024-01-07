@@ -1,3 +1,14 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://rooty.github.io/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Rooty protfolio'
+theme = 'ananke'
+
+[params]
+  subtitle = 'The Best Widgets on Earth'
+  [params.contact]
+    email = 'blackrooty@gmail.com'
+    phone = '+1 202-555-1212'
+    
+[markup]
+  defaultMarkdownHandler = 'goldmark'
+  
