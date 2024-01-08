@@ -134,11 +134,11 @@ Education:
     Details: Odessa State Environmental University has a glorious history, which begins with May 1932. During this time, the University has become a unique institution of higher learning that provides quality higher education on the international standards of the extremely topical specialties related to the protection, monitoring and forecasting the state of the natural environment. Our mission - to change the outlook of our society and leave future generations the nature in which to live comfortably.
 
 References:
-  - Name: Fedit havloskyi
+  - Name: Fedit Havloskyi
     Relation: Founder at SLotcatalog
     Contacts:
-    #- Icon: fas fa-phone
-    #  Info: +44 123 456 790
+    - Icon: fas fa-phone
+      Info: +44 123 456 790
     - Icon: fas fa-envelope
       Info: admin@slotcatalog.com
     - Icon: fas fa-map-marker-alt
@@ -155,6 +155,13 @@ References:
 
 
 Skills:
+  - Family: Cloud
+    Items:
+      - AWS
+      - GCloud
+      - Azure
+      - DigitalOcean
+      - Linode
   - Family: Programming
     Items:
       - Python
@@ -172,7 +179,12 @@ Skills:
       - Git
       - Docker
       - Jenkins
+      - Bamboo
+      - Github
+      - Gitlab
       - AWS
+      - GCloud
+      - Azure
 
 Languages:
   - Name: Russian
