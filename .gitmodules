@@ -7,3 +7,6 @@
 [submodule "themes/hugo-theme-relearn"]
 	path = themes/hugo-theme-relearn
 	url = git@github.com:McShelby/hugo-theme-relearn.git
+[submodule "themes/hugo-theme-relearn"]
+	path = themes/m10c
+	url = git@github.com:vaga/hugo-theme-m10c.git
