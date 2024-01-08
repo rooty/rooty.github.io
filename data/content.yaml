@@ -30,7 +30,7 @@ Experience:
           - Ansible, Terraform
           - Bash, python, Go
           - Prometheus/Grafana, DataDog
-        Badges: ['Python', 'HTML', 'CSS', 'C#/Unity']
+        Badges: ['Cloud', 'Containers','Software provisioning','Scipts','Monitoring','Database']
   - Employer: Clickky
     Place: Odessa, UA
     Positions:
@@ -48,7 +48,7 @@ Experience:
           - Prometheus, Grafana, Zabbix
           - Typically a Linux System Administrator background
           - Prometheus/Grafana, DataDog
-        Badges: ['Python', 'HTML', 'CSS', 'C#/Unity']
+        Badges: ['Cloud', 'Containers','Software provisioning','Scipts','Monitoring','Database']
   - Employer: KeepSolid Inc.
     Place: Odessa, UA
     Positions:
@@ -63,7 +63,7 @@ Experience:
           - Analyze system logs and identify potential issues with computer systems
           - Perform regular updates to production
           - Databases:Postgres, Redis, Riak
-        Badges: ['Python', 'HTML', 'CSS', 'C#/Unity']
+        Badges: ['Cloud', 'Software provisioning','Scipts','Monitoring','Database']
       - Title: Senior System Administrator
         Date: Mar 2015 - May 2017
         Details:
@@ -75,7 +75,7 @@ Experience:
           - Analyze system logs and identify potential issues with computer systems
           - Perform regular updates to production
           - Databases:Postgres, Redis, Riak
-        Badges: ['Python', 'HTML', 'CSS', 'C#/Unity']
+        Badges: ['Cloud', 'Software provisioning','Scipts','Monitoring','Database']
   - Employer: Filmon plc. / 111PIX UA
     Place: Odessa, UA
     Positions:
@@ -89,7 +89,7 @@ Experience:
           - Analyze system logs and identify potential issues with computer systems
           - Perform regular updates to production
           - Configure Wowza media server, ffmpeg, vlc
-        Badges: ['Python', 'HTML', 'CSS', 'C#/Unity']
+        Badges: ['Software provisioning','Scipts','Monitoring','Database']
   - Employer: FreshLimeStudio
     Place: Odessa, UA
     Positions:
