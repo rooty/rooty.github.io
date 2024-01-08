@@ -1,0 +1,147 @@
+BasicInfo:
+  FirstName: Vitalii
+  LastName: Mikhenvych
+  Photo: img/avatar.jpg
+  Contacts:
+    - Icon: fas fa-phone
+      Info: +48 735 14 6326
+    - Icon: fas fa-envelope
+      Info: backrooty@gmail.com
+    - Icon: fas fa-globe
+      Info: <a class="contact__link" href="https://rooty.github.io" target="_blank">Smart BIZ</a>
+    - Icon: fas fa-map-marker-alt
+      Info: Portugal
+
+Profile: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+Experience:
+  - Employer: Slotcatalog
+    Place: Krakow, PL
+    Positions:
+      - Title: Lead Devops Engieneer
+        Date: Feb 2019 - Present
+        Details:
+          - Azure, Azure Stack, DigitalOcean
+          - Docker Swarm
+          - MySQL, Redis, Elasticsearch
+          - JIRA, Confluence, Jenkins, Gitlab, Azure
+          - Ansible, Terraform
+          - Bash, python, Go
+          - Prometheus/Grafana, DataDog
+        Badges: ['Python', 'HTML', 'CSS', 'C#/Unity']
+  - Employer: KeepSolid Inc.
+    Place: Odessa, UA
+    Positions:
+      - Title: Lead System Administrator
+        Date: May 2017 - Nov 2017
+        Details:
+          - Configure Linux systems (Salt Management Platform)
+          - Monitor stability, capacity and performance (Zabbix)
+          - Troubleshoot system issues
+          - Configure Web Server(Nginx+php-fpm)
+          - Configuring VPN Services IPSec/OpenVPN/PPTP/L2TP
+          - Analyze system logs and identify potential issues with computer systems
+          - Perform regular updates to production
+          - Databases:Postgres, Redis, Riak
+        Badges: ['Python', 'HTML', 'CSS', 'C#/Unity']
+      - Title: Senior System Administrator
+        Date: Mar 2015 - May 2017
+        Details:
+          - Configure Linux systems (Salt Management Platform)
+          - Monitor stability, capacity and performance (Zabbix)
+          - Troubleshoot system issues
+          - Configure Web Server(Nginx+php-fpm)
+          - Configuring VPN Services IPSec/OpenVPN/PPTP/L2TP
+          - Analyze system logs and identify potential issues with computer systems
+          - Perform regular updates to production
+          - Databases:Postgres, Redis, Riak
+        Badges: ['Python', 'HTML', 'CSS', 'C#/Unity']
+  - Employer: Filmon plc. / 111PIX UA
+    Place: Odessa, UA
+    Positions:
+      - Title: Senior Unix System Administrator
+        Date: Aug 2011 - Mar 2015
+        Details:
+          - Configure Linux systems (Gentoo/OpenSuse/CentOS)
+          - Monitor site stability, capacity and performance (Nagios/Cacti/Zabbix)
+          - Automate functions to minimize manual labor
+          - Troubleshoot system issues
+          - Analyze system logs and identify potential issues with computer systems
+          - Perform regular updates to production
+          - Configure Wowza media server, ffmpeg, vlc
+        Badges: ['Python', 'HTML', 'CSS', 'C#/Unity']
+
+  - Employer: Institute of Neural Engineering
+    Place: Graz, AT
+    Class: "experience__extra_padding"
+    Positions:
+      - Title: Master's Thesis Research Intern
+        Date: Oct 2016 - Jun 2017
+        Details:
+          - Arcu vitae elementum curabitur vitae nunc sed velit
+          - Viverra aliquet eget sit amet tellus cras adipiscing
+          - Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+          - Nisl tincidunt eget nullam non nisi est
+        Badges: ['Python', 'MATLAB', 'Data Processing', 'Paradigm Design']
+
+Education:
+  - Course: Odessa State Environmental University
+    Place: Odessa, Ukraine
+    Date: 1990 - 1996
+    Details: Odessa State Environmental University has a glorious history, which begins with May 1932. During this time, the University has become a unique institution of higher learning that provides quality higher education on the international standards of the extremely topical specialties related to the protection, monitoring and forecasting the state of the natural environment. Our mission - to change the outlook of our society and leave future generations the nature in which to live comfortably.
+
+References:
+  - Name: Person One
+    Relation: Co-worker at Super Cool Company
+    Contacts:
+    - Icon: fas fa-phone
+      Info: +44 123 456 790
+    - Icon: fas fa-envelope
+      Info: contact@person-one.com
+    - Icon: fas fa-map-marker-alt
+      Info: Melbourne, Australia
+  - Name: Person Two
+    Relation: Boss at Super Cool Company
+    Contacts:
+    - Icon: fas fa-phone
+      Info: +44 123 456 791
+    - Icon: fas fa-envelope
+      Info: contact@person-two.com
+    - Icon: fas fa-map-marker-alt
+      Info: Sydney, Australia
+
+
+Skills:
+  - Family: Programming
+    Items:
+      - Python
+      - HTML (including Jinja)
+      - SQL
+      - Bash
+      - Go
+  - Family: Frameworks
+    Items:
+      - Flask
+      - FastAPI
+      - Django
+  - Family: Developer Tools
+    Items:
+      - Git
+      - Docker
+      - Jenkins
+      - AWS
+
+Languages:
+  - Name: Russian
+    Level: Native
+  - Name: English
+    Level: A2
+  - Name: German
+    Level: A2
+
+#Diplomas:
+#  - ISTQB Tester Certification (2019)
+#  - English Cambridge CAE (2009)
+
+Interests:
+  - Astronomi

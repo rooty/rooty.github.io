@@ -1,0 +1,146 @@
+BasicInfo:
+  FirstName: Vitalii
+  LastName: Mikhenvych
+  Photo: img/avatar.jpg
+  Contacts:
+    - Icon: fas fa-phone
+      Info: +48 735 14 6326
+    - Icon: fas fa-envelope
+      Info: backrooty@gmail.com
+    - Icon: fas fa-globe
+      Info: <a class="contact__link" href="https://rooty.github.io" target="_blank">Smart BIZ</a>
+    - Icon: fas fa-map-marker-alt
+      Info: Portugal
+
+Profile: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+Experience:
+  - Employer: SlotCatalog
+    Place: Krakow, PL
+    Positions:
+      - Title: Lead Devops Engieneer
+        Date: Feb 2019 - Present
+        Details:
+          - Cloud: Azure, Azure Stack, DigitalOcean
+          - Containers: Docker Swarm
+          - Database: MySQL, Redis, Elasticsearch
+          - Continuous integration tools: JIRA, Confluence, Jenkins, Gitlab, Azure
+          - Software provisioning - Ansible, Terraform
+          - Scipts - bash, python
+          - Monitoring: Prometheus/Grafana
+        Badges: ['Docker','Python', 'PHP', 'BASH','MySQL','ClickHouse','Redis','RabbitMQ']
+      - Title: Head of DevOps
+        Date: Nov 2017 - Okt 2028
+        Details:
+          - Load balancing: Haproxy, Nginx
+          - Containers: Docker
+          - AWS: Route53, CloudWatch
+          - MySQL, Clickhouse, Redis, RabbitMQ, Elasticsearch
+          - Continuous integration tools: JIRA, Confluence, Git
+          - Continuous integration, Continuous Delivery - Bamboo
+          - Software provisioning - Ansible
+          - Scipts - bash, python
+          - Monitoring: Prometheus/Grafana
+          - Typically a Linux System Administrator background
+        Badges: ['Python', 'BDD', 'Selenium', 'OOP', 'Agile']
+  - Employer: Another super cool company
+    Place: Lisbon, PT
+    Positions:
+      - Title: Flow Cytometry Resource Specialist
+        Date: Jan 2018 - Mar 2019
+        Details:
+          - Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+          - Nisl tincidunt eget nullam non nisi est
+          - Sed viverra tellus in hac.
+          - Lorem ipsum dolor sit amet, consectetur adipiscing elit
+        Badges: ['Python', 'HTML', 'CSS', 'C#/Unity']
+  - Employer: Institute of Neural Engineering
+    Place: Graz, AT
+    Class: "experience__extra_padding"
+    Positions:
+      - Title: Master's Thesis Research Intern
+        Date: Oct 2016 - Jun 2017
+        Details:
+          - Arcu vitae elementum curabitur vitae nunc sed velit
+          - Viverra aliquet eget sit amet tellus cras adipiscing
+          - Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+          - Nisl tincidunt eget nullam non nisi est
+        Badges: ['Python', 'MATLAB', 'Data Processing', 'Paradigm Design']
+
+Education:
+  - Course: BSc & MSc in Biomedical Engineering and Biophysics
+    Place: University of Lisbon
+    Date: Sep 2012 - Nov 2017
+    Details: Specialised in data analysis
+
+References:
+  - Name: Person One
+    Relation: Co-worker at Super Cool Company
+    Contacts:
+    - Icon: fas fa-phone
+      Info: +44 123 456 790
+    - Icon: fas fa-envelope
+      Info: contact@person-one.com
+    - Icon: fas fa-map-marker-alt
+      Info: Melbourne, Australia
+  - Name: Person Two
+    Relation: Boss at Super Cool Company
+    Contacts:
+    - Icon: fas fa-phone
+      Info: +44 123 456 791
+    - Icon: fas fa-envelope
+      Info: contact@person-two.com
+    - Icon: fas fa-map-marker-alt
+      Info: Sydney, Australia
+
+
+Skills:
+  - Family: Programming
+    Items:
+      - Python
+      - HTML (including Jinja)
+      - Javascript
+      - CSS
+      - SASS
+      - SQL
+      - C#
+      - Bash
+      - MATLAB
+  - Family: Frameworks
+    Items:
+      - Django
+      - Flask
+      - Hugo
+      - React
+  - Family: Developer Tools
+    Items:
+      - Git
+      - Docker
+      - Jenkins
+      - AWS
+  - Family: Misc
+    Items:
+      - Adobe Tools
+      - LaTeX
+
+Languages:
+  - Name: Portuguese
+    Level: Native
+  - Name: English
+    Level: C2
+  - Name: Spanish
+    Level: B1
+  - Name: German
+    Level: B1
+
+Diplomas:
+  - ISTQB Tester Certification (2019)
+  - English Cambridge CAE (2009)
+
+Interests:
+  - Bouldering
+  - Cooking
+  - Windsurfing
+  - Bossa Nova
+  - Design
+  - Languages
