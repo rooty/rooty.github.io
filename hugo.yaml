@@ -424,12 +424,10 @@ params:
     # title: "Custom Name"
     items:
       - title: Proxy+OpenVpn
-        content: |
-            - Features
-            - Supports CONNECT method and forwarding of HTTPS connections
-            - Supports TLS operation mode (HTTP(S) proxy over TLS)
-            - Supports client authentication with client TLS certificates
-            - Supports HTTP/2
+        content: Features. Supports CONNECT method and forwarding of HTTPS connections. 
+          Supports TLS operation mode (HTTP(S) proxy over TLS).
+          Supports client authentication with client TLS certificates.
+          Supports HTTP/2.
         badges:
           - "vpn"
           - "openvpn"
