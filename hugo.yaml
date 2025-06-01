@@ -239,9 +239,10 @@ params:
         company: "SlotCatalog"
         companyUrl: "https://slotcatalog.com"
         date: "Feb 2019 - present"
-        # featuredLink:
-        #   enable: true
-        #   url: "https://slotcatalog.com"
+        featuredLink:
+          enable: true
+          name: "SlotCatalog"
+          url: "https://slotcatalog.com"
         info:
           enable: true
           content: I worked as a devops engineer.
@@ -260,9 +261,10 @@ params:
         date: "Nov 2017 - Okt 2018"
         info:
           enable: true
-        # featuredLink:
-        #   enable: true
-        #   url: "https://clikky.biz"
+        featuredLink:
+          enable: true
+          name: "Clikky"
+          url: "https://clikky.biz"
         content: |
           - Load balancing: Haproxy, Nginx
           - Containers: Docker
@@ -274,16 +276,17 @@ params:
           - Scipts - bash, python
           - Monitoring: Prometheus/Grafana
           - Typically a Linux System Administrator background
-          
+
       - job: "Head of Devops and System Administration"
-        company: "KeepSolid/VPNUnlimited"
+        company: "KeepSolid-VPNUnlimited"
         companyUrl: "https://seepsolid.com"
         date: "Mar 2015 - Nov 2019"
         info:
           enable: true
-        # featuredLink:
-        #   enable: true
-        #   url: "https://seepsolid.com"
+        featuredLink:
+          enable: true
+          name: "KeepSolid-VPNUnlimited"
+          url: "https://seepsolid.com"
         content: |
           - Load balancing: Haproxy, Nginx
           - Cloud: AWS, Azure, DigitalOcean
@@ -308,6 +311,10 @@ params:
         date: "Avg 2011 - Mar 2015"
         info:
           enable: true
+        featuredLink:
+          enable: true
+          name: "111PIX UA"
+          url: "https://111pix.ua"
         content: |
           - Configure Linux systems (Gentoo/OpenSuse/CentOS)
           - Monitor site stability, capacity and performance (Nagios/Cacti/Zabbix)
