@@ -275,13 +275,13 @@ params:
           - Monitoring: Prometheus/Grafana
           - Typically a Linux System Administrator background
           
-      - job: "Lead DevOps Engineer"
+      - job: "Head of Devops and System Administration"
         company: "KeepSolid/VPNUnlimited"
         companyUrl: "https://seepsolid.com"
         date: "Mar 2015 - Nov 2019"
-        # featuredLink:
-        #   enable: true
-        #   url: "https://seepsolid.com""
+        featuredLink:
+          enable: true
+          url: "https://seepsolid.com"
         content: |
           - Cloud: AWS, Azure, DigitalOcean
           - Containers: Docker Swarm, Kubernetes
