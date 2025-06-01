@@ -171,11 +171,12 @@ params:
     enable: true
     title: "About Me"
     image: "/images/mvv3.jpeg"
-    content: |-
+    content: |
       I am an engineer with over 20 years of experience in IT industry.
+    
     skills:
       enable: true
-      title: "Technologies & Tools"
+      title: "Technologies & Tools:"
       items:
         - "linix"
         - "VPS"
