@@ -135,15 +135,12 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Vitalii Mikhnevych."
-    subtitle: "I build things for the people"
+    subtitle: "I'm a Engineer"
     content: |
-      A passionate devops/system administrator. I tend to make use of modern web technologies to build websites that look great, feel fantastic, and function correctly.
-      - Technologies & Tools
-        * Languages: Python, Go
-        * Frameworks/Libraries: Django, Flask, GIN
-        * Databases: MySQL, PostgreSQL
-        * Tools: Git, Docker, Kubernetes, Jenkins, Visual Studio Code
-        * Cloud: AWS, Azure, Google Cloud
+        I am an engineer with over 20 years of experience in IT industry. 
+        I have an experience in DevOps/Telecom/Networking/Hosting/R&D/Infrastructure/ Virtualization/Support areas; 
+        have used DevOps stack and tools like: Ansible/Puppet/Docker/K8S/AWS/GCloud/Jenkins, bash on Linux power admin needs. 
+        Python and Golang on code understanding level such that needed in DevOps concept.
 
     image: /images/green.jpeg
     bottomImage:
