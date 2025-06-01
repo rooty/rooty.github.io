@@ -1,0 +1,605 @@
+baseURL: "https://rooty.github.io"
+languageCode: "en-us"
+title: "Personal Profile"
+theme: hugo-profile
+
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+  page:
+    - "HTML"
+    - "RSS"
+
+enableRobotsTXT: true
+
+#services:
+  #googleAnalytics:
+    #id: G-MEASUREMENT_ID
+  #disqus:
+    #shortname: your-disqus-shortname
+
+pagination:
+  pagerSize: 3
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+Menus:
+  main:
+    - identifier: blog
+      name: Blog
+      title: Blog posts
+      url: /blogs
+      weight: 1
+    - identifier: gallery
+      name: Gallery
+      title: Blog posts
+      url: /gallery
+      weight: 2
+    # Dropdown menu
+    # - identifier: dropdown
+    #   title: Example dropdown menu
+    #   name: Dropdown
+    #   weight: 3
+    # - identifier: dropdown1
+    #   title: example dropdown 1
+    #   name: example 1
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 1
+    # - identifier: dropdown2
+    #   title: example dropdown 2
+    #   name: example 2
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 2
+
+params:
+  title: "Personal Profile"
+  description: Personal Profile site
+  # staticPath: ""  # The path to serve the static files from
+  favicon: "/images/me.jpg"
+
+  # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
+  # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
+  # Note the lack of "" in true, it should be of boolean type.
+  useBootstrapCDN: false
+
+  # If you want to load dynamically responsive images from Cloudinary
+  # This requires your images to be uploaded + hosted on Cloudinary
+  # Uncomment and change YOUR_CLOUD_NAME to the Cloud Name in your Cloudinary console
+  # cloudinary_cloud_name: "YOUR_CLOUD_NAME"
+
+  # Whether to add mathjax support on all pages. Alternatively, you can opt-in per page by adding `mathjax: true` in the frontmatter.
+  mathjax: false
+
+  # Whether the fade animations on the home page will be enabled
+  animate: true
+
+  theme:
+    # disableThemeToggle: true
+    # defaultTheme: "light" # dark
+
+  font:
+    fontSize: 1rem # default: 1rem
+    fontWeight: 400 # default: 400
+    lineHeight: 1.5 # default: 1.5
+    textAlign: left # default: left
+
+  # color preference
+  # When using hex codes for colors, quotations must be used along with the # sign
+  # color:
+  #   textColor: "#343a40"
+  #   secondaryTextColor: "#6c757d"
+  #   textLinkColor: "#007bff"
+  #   backgroundColor: "#eaedf0"
+  #   secondaryBackgroundColor: "#64ffda1a"
+  #   primaryColor: "#007bff"
+  #   secondaryColor: "#f8f9fa"
+
+  #   darkmode:
+  #     textColor: "#e4e6eb"
+  #     secondaryTextColor: "#b0b3b8"
+  #     textLinkColor: "#ffffff"
+  #     backgroundColor: "#18191a"
+  #     secondaryBackgroundColor: "#212529"
+  #     primaryColor: "#ffffff"
+  #     secondaryColor: "#212529"
+
+  # If you want to customize the menu, you can change it here
+  navbar:
+    align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
+    # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
+    # showBrandLogo: false # Show brand logo in nav bar | default is true
+    brandName: "Personal Profile" # Brand name for the brand | default is the title variable
+    disableSearch: false
+    # searchPlaceholder: "Search"
+    stickyNavBar:
+      enable : true
+      showOnScrollUp : true
+    enableSeparator: false
+    menus:
+      disableAbout: false
+      disableExperience: false
+      disableEducation: false
+      disableProjects: false
+      disableAchievements: true
+      disableContact: false
+
+  # Hero
+  hero:
+    enable: true
+    intro: "Hi, my name is"
+    title: "Vitalii Mikhnevych."
+    subtitle: "I build things for the people"
+    content: |
+      A passionate devops/system administrator. I tend to make use of modern web technologies to build websites that look great, feel fantastic, and function correctly.
+      - Technologies & Tools
+        * Languages: Python, Go
+        * Frameworks/Libraries: Django, Flask, GIN
+        * Databases: MySQL, PostgreSQL
+        * Tools: Git, Docker, Kubernetes, Jenkins, Visual Studio Code
+        * Cloud: AWS, Azure, Google Cloud
+
+      - 📫 How to reach me:
+        * Telegram: https://t.me/blackrooty
+        * Email: rooty@chm.od.ua
+        * LinkedIn: 
+
+    image: /images/green.jpeg
+    bottomImage:
+      enable: true
+    # roundImage: true # Make hero image circular | default false
+    button:
+      enable: true
+      name: "Resume"
+      url: "/static/resume.pdf" # Path to the resume file
+      download: true
+      newPage: false
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-github
+          url: https://github.com/rooty
+        - icon: fab fa-telegram
+          url: https://t.me/blackrooty
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/rooty/
+        - icon: fas fa-envelope
+          url: mailto:?subject=personal_site&to=rooty@chm.od.ua
+      # customIcons:
+      #   - icon: /fav.png
+      #     url: "https://example.com"
+
+  # About
+  about:
+    enable: true
+    title: "About Me"
+    image: "/images/mvv3.jpeg"
+    content: |-
+      A passionate devops/system administrator. I tend to make use of modern web technologies to build websites that look great, feel fantastic, and function correctly.
+    skills:
+      enable: true
+      title: "Technologies & Tools"
+      items:
+        - "linix"
+        - "VPS"
+        - "VPN"
+        - "AWS"
+        - "GPC"
+        - "Azure"
+        - "Python"
+        - "Go"
+        - "Django"
+        - "Flask"
+        - "GIN"
+        - "MySQL"
+        - "PostgreSQL"
+        - "Git"
+        - "Docker"
+        - "Kubernetes"
+        - "Jenkins"
+        - "Visual Studio Code"
+        - "Python"
+        - "PHP"
+
+  # Experience
+  experience:
+    enable: true
+    # title: "Custom Name"
+    items:
+      - job: "DevOps Engineer"
+        company: "TopTenLead"
+        companyUrl: "https://toptenlead.com"
+        date: "Okt 2024 - present"
+        featuredLink:
+          enable: true
+          name: "TopTenLead"
+          url: "https://toptenlead.com"
+        content: |            
+            - Cloud hosting
+            - Continuous integration tools
+            - Scipts - bash, python
+            - Monitoring: Prometheus/Grafana
+
+      - job: "DevOps Engineer"
+        company: "Aptito"
+        companyUrl: "https://aptito.com"
+        date: "Jan 2021 - present"
+        featuredLink:
+          enable: true
+          name: "Aptito POS"
+          url: "https://aptito.com"
+        content: | 
+          - Cloud: Azure, Azure Stack, DigitalOcean
+          - Containers: Docker Swarm
+          - Database: MySQL, Redis, Elasticsearch
+          - Continuous integration tools: JIRA, Confluence, Jenkins, Gitlab, Azure
+          - Software provisioning - Ansible, Terraform
+          - Scipts - bash, python
+          - Monitoring: Prometheus/Grafana
+
+      - job: "Lead DevOps Engineer"
+        company: "SlotCatalog"
+        companyUrl: "https://slotcatalog.com"
+        date: "Feb 2019 - present"
+        featuredLink:
+          enable: true
+          url: "https://slotcatalog.com"
+        info:
+          enable: true
+          content: I worked as a devops engineer.
+        content: |
+          - Cloud: Azure, Azure Stack, DigitalOcean
+          - Containers: Docker Swarm
+          - Database: MySQL, Redis, Elasticsearch
+          - Continuous integration tools: JIRA, Confluence, Jenkins, Gitlab, Azure
+          - Software provisioning - Ansible, Terraform
+          - Scipts - bash, python
+          - Monitoring: Prometheus/Grafana
+
+      - job: "Head of Devops and System Administration"
+        company: "Clikky"
+        companyUrl: "https://clikky.biz"
+        date: "Nov 2017 - Okt 2018"
+        info:
+          enable: false
+        featuredLink:
+          enable: true
+          url: "https://clikky.biz"
+        content: |
+          - Load balancing: Haproxy, Nginx
+          - Containers: Docker
+          - AWS: Route53, CloudWatch
+          - MySQL, Clickhouse, Redis, RabbitMQ, Elasticsearch
+          - Continuous integration tools: JIRA, Confluence, Git
+          - Continuous integration, Continuous Delivery - Bamboo
+          - Software provisioning - Ansible
+          - Scipts - bash, python
+          - Monitoring: Prometheus/Grafana
+          - Typically a Linux System Administrator background
+          
+      - job: "Lead DevOps Engineer"
+        company: "KeepSolid/VPNUnlimited"
+        companyUrl: "https://seepsolid.com"
+        date: "Mar 2015 - Nov 2019"
+        # featuredLink:
+        #   enable: true
+        #   url: "https://seepsolid.com""
+        content: |
+          - Cloud: AWS, Azure, DigitalOcean
+          - Containers: Docker Swarm, Kubernetes
+          - Database: MySQL, Redis, Elasticsearch
+          - Continuous integration tools: JIRA, Confluence, Jenkins, Gitlab, Azure
+          - Software provisioning - Ansible, Terraform
+          - Scipts - bash, python
+          - Monitoring: Prometheus/Grafana
+          - Configure Linux systems (Salt Management Platform)
+          - Monitor stability, capacity and performance Zabbix,
+          - Troubleshoot system issues
+          - Configure Web Server(Nginx+php-fpm)
+          - Configuring VPN Services IPSec/OpenVPN/PPTP/L2TP
+          - Analyze system logs and identify potential issues with computer systems
+          - Perform regular updates to production
+          - Databases:Postgres, Redis, Riak
+
+      - job: "Senior Unix System Administrator"
+        company: "111PIX UA"
+        companyUrl: "https://111pix.ua"
+        date: "Avg 2011 - Mar 2015"
+        content: |
+          - Configure Linux systems (Gentoo/OpenSuse/CentOS)
+          - Monitor site stability, capacity and performance (Nagios/Cacti/Zabbix)
+          - Automate functions to minimize manual labor
+          - Troubleshoot system issues
+          - Analyze system logs and identify potential issues with computer systems
+          - Perform regular updates to production
+          - Configure Wowza media server, ffmpeg, vlc
+
+      - job: "Python Developer (Python/Django)"
+        company: "FreshLimeStudio"
+        companyUrl: "https://freshlimestudio.com"
+        date: "Nov 2011 - Jan 2012"
+        content: |
+          - developing using Python, Javascript
+          - developing MySQL data bases
+          - design inserting
+          - worked on web-sites optimization for search engines: Google, Yandex
+          - Environment: Linux, MySQL, Django, Javascript, Nginx, CSS 2
+
+      - job: "Senior PHP Developer"
+        company: "Alliance of technologies and telecommunications"
+        companyUrl: "https://roznica.com.ua"
+        date: "Jul 2009 - Okt 2011"
+        content: |
+          - developing using Python, Javascript
+          - developing MySQL data bases;
+          - design inserting;
+          - worked on web-sites optimization for search engines: Google, Yandex
+          - Environment: Linux, MySQL, Django, Javascript, Nginx, CSS 2.*
+          
+      - job: "Senior Unix System Administrator"
+        company: "ICN ISP"
+        companyUrl: "https://icn.ua"
+        date: "May 2005 - Jun 2009"
+        content: |
+          - Developing and support Internet node. Node includes Juniper, HP, Cisco, Zyxel, Planet routers and switches, FreeBSD routers and servers, Mikrotik routers, Linux servers.
+          - Developing and support Juniper and FreeBSD routers, BGP, routing, firewall, security policy, mail, DNS, SVN servers, Jails Virtualization, ZFS.
+          - Developing, support and troubleshooting Ethernet transport system: HP, Cisco, Zyxel, MESH, RSTP/MSTP, Vlan802.1q/p, multicast, IGMP, IPTV.
+          - Developing and support system of monitoring and managing Internet node (Nagios,Cacti, Zabbix).
+          - Developing and support backup system (Bacula).
+          - Customer consulting.
+          - Developing and support billing system
+
+  # Education
+  education:
+    enable: true
+    # title: "Custom Name"
+    index: false
+    items:
+      - title: "Engineer of Electionics and Computer Engineering"
+        school:
+          name: "Odessa State Enviroment University"
+          url: "https://example.org"
+        date: "2013 - 2015"
+        GPA: "4.0 out of 5.0"
+        content: |-
+          - Odessa State Environmental University has a glorious history, which begins with May 1932. During this time, 
+            the University has become a unique institution of higher learning that provides quality higher education 
+            on the international standards of the extremely topical specialties related to the protection, monitoring 
+            and forecasting the state of the natural environment. Our mission - to change the outlook of our society and 
+            leave future generations the nature in which to live comfortably.
+        # featuredLink:
+        #   enable: true
+        #   name: "My academic record"
+        #   url: "https://example.com"
+      # - title: "High School"
+      #   school:
+      #     name: "Thomas Jefferson High School for Science and Technology."
+      #     url: "https://example.org"
+      #   GPA: "4.2 out of 5.0"
+      #   featuredLink:
+      #     enable: true
+      #     url: "https://example.com"
+
+  # # Achievements
+  # achievements:
+  #   enable: true
+  #   # title: "Custom Name"
+  #   items:
+  #     - title: Google kickstart runner
+  #       content: I solved all problems with optimal solution.
+  #       url: https://example.com
+  #       image: /images/achievement.jpg
+  #     - title: Facebook Hackathon Winner
+  #       content: Developed a product using Artificial Intelligence.
+  #       image: /images/achievement.jpg
+  #     - title: Personal Profile
+  #       content: Developed a theme and getting 1K+ downloads per month.
+  #       url: "https://github.com/gurusabarish/hugo-profile"
+  #       image: /images/achievement.jpg
+  #     - title: Microsoft Imagine Runner
+  #       content: We are developed a product which can help others.
+  #     - title: Google Summer of Code
+  #       content: Contributed to a open source project.
+  #       url: https://example.com
+
+  # projects
+  projects:
+    enable: true
+    # title: "Custom Name"
+    items:
+      - title: Proxy+OpenVpn
+        content: |
+            - Features
+            - Supports CONNECT method and forwarding of HTTPS connections
+            - Supports TLS operation mode (HTTP(S) proxy over TLS)
+            - Supports client authentication with client TLS certificates
+            - Supports HTTP/2
+        badges:
+          - "vpn"
+          - "openvpn"
+          - "Dumproxy"
+        links:
+          # - icon: fa fa-envelope
+          #   url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+          - icon: fab fa-github
+            url: https://github.com/rooty/proxy-vpn
+          # - icon: fab fa-twitter
+          #   url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+      - title: Proxy+Wireguard
+        content: |
+            - Features
+            - Supports CONNECT method and forwarding of HTTPS connections
+            - Supports TLS operation mode (HTTP(S) proxy over TLS)
+            - Supports client authentication with client TLS certificates
+            - Supports HTTP/2
+        badges:
+          - "vpn"
+          - "wireguard"
+          - "Dumproxy"
+        links:
+          # - icon: fa fa-envelope
+          #   url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+          - icon: fab fa-github
+            url: https://github.com/rooty/proxy-vpn-wg
+          # - icon: fab fa-twitter
+          #   url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+
+      - title: KeepSolid
+        content: |
+            KeepSolid is an international product development company headquartered in New York, USA. 
+            We offer a wide range of solutions and services - from improved productivity to data protection 
+            and internet security - for both individual and corporate clients. Our key services and solutions 
+            are VPN Unlimited, Photo Transfer WiFi, Private Browser and To Do Checklist.
+        image: /images/projects/keepsolid.png
+        featured:
+          name: VPN Unlimited
+          link: https://www.vpnunlimited.com/
+        badges:
+          - "vpn"
+          - "openvpn"
+          - "wiregurad"
+          - "ikev1"
+          - "ikev2"
+        links:
+          # - icon: fa fa-envelope
+          #   url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+          - icon: fab fa-github
+            url: https://github.com/rooty/rooty
+          # - icon: fab fa-twitter
+          #   url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+
+      - title: VPN Unlimited
+        content: Want to get access to otherwise restricted web content? Do not trust your WiFi connection? Need to ensure online security? Our VPN service sets you free from bandwidth, speed or connection limits! Enjoy your favorite online resources anywhere, anytime!
+                VPN Unlimited lets evaluate highest quality of our VPN servers for 10 days free of charge. We offer a choice of time-limited subscriptions.
+        image: /images/projects/vpn-unlimited.png
+        featured:
+          name: VPN Unlimited
+          link: https://www.vpnunlimited.com/
+        badges:
+          - "vpn"
+          - "openvpn"
+          - "wiregurad"
+          - "ikev1"
+          - "ikev2"
+        links:
+          # - icon: fa fa-envelope
+          #   url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+          - icon: fab fa-github
+            url: https://github.com/rooty/rooty
+          # - icon: fab fa-twitter
+          #   url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+      - title: ICN ISP
+        content: Ukrainian  Internet service                 
+        image: /images/projects/icn.png
+        featured:
+          name: ICN ISP
+          link: https://icn.ua/
+
+
+      - title: 111PIX UA - FILMON TV FREE LIVE TV MOVIES AND SOCIAL TELEVISION
+        content: Watch free 600 Free Live TV Channels. See 45000 Complimentary movies TV shows and documentaries. Record Local TV zero cost. View Horror Movies at no charge!  
+        image: /images/projects/111pixua.png
+        # featured:
+        #   name: 111PIX UA
+        #   link: https://www.roznica.com.ua/
+
+      - title: Roznica
+        content: Internet shop of household appliances and electronics
+                 Roznica is a Ukrainian online store of household appliances and electronics. The store offers a wide range of products, including smartphones, laptops, tablets, TVs, home appliances, and more. Roznica provides customers with the opportunity to purchase high-quality products at competitive prices.  
+        image: /images/projects/roznica.png
+        featured:
+          name: Roznica
+          link: https://www.roznica.com.ua/
+
+      - title: FlyElephant
+        content: Cloud marketplace for data collection and high-performance computing
+                 The system is developed for data collection and processing and various kinds of high-performance computing using either existing software packages or your own tailored programs. Developers can integrate their own software or services into the system, or make the same available on paid basis or free of charge. Owners of resources can connect their computing facilities to the system to get additional profit from their lease.
+        image: /images/projects/converter.jpg
+        featured:
+          name: Cloud marketplace for data collection and high-performance computing
+          # link: https://bot.sea.net.ua
+        badges:
+          - "data-collection"
+        # links:
+        #   - icon: fab fa-github
+        #     url: https://github.com/rooty/tele-bot
+
+      - title: Filmon.com
+        content: Live show/tele
+        image: /images/projects/filmon.png
+        featured:
+          name: Filmon.com
+          link: https://www.filmon.com/
+
+      - title: BattleCam.Com
+        content: Live Show
+        image: /images/projects/battlecam.png
+        featured:
+          name: BattleCam.Com
+          link: https://www.battlecam.com/
+
+
+  #Contact
+  contact:
+    enable: true
+    # title: "Custom Name"
+    content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
+    btnName: Mail me
+    btnLink: mailto:blackrooty@gmail.com
+    formspree:
+      enable: true # `contact.email` value will be ignored
+      formId: mqabzvno # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
+      emailCaption: "Enter your email address"
+      messageCaption: "Enter your message here"
+      messageRows: 5
+
+  footer:
+    recentPosts:
+      path: "blogs"
+      count: 3
+      title: Recent Posts
+      enable: true
+      disableFeaturedImage: false
+    # socialNetworks:
+    #   github: https://github.com
+    #   linkedin: https://linkedin.com
+    #   twitter: https://twitter.com
+    #   instagram: https://instagram.com
+    #   facebook: https://facebook.com
+
+  # List pages like blogs and posts
+  listPages:
+    disableFeaturedImage: false
+
+  # Single pages like blog and post
+  singlePages:
+    socialShare: true
+    readTime:
+      enable: true
+      content: "min read"
+    scrollprogress:
+      enable: true
+    tags:
+      openInNewTab: true
+
+  # For translations
+  terms:
+    read: "Read"
+    toc: "Table Of Contents"
+    copyright: "All rights reserved"
+    pageNotFound: "Page not found"
+    emailText: "Check out this site"
+
+
+  datesFormat:
+    article: "Jan 2, 2006"
+    articleList: "Jan 2, 2006"
+    articleRecent: "Jan 2, 2006"
+
+  #customScripts: -| # You can add custom scripts which will be added before </body> tag
+  #  <script type="text/javascript"><!-- any script here --></script>
