@@ -145,11 +145,6 @@ params:
         * Tools: Git, Docker, Kubernetes, Jenkins, Visual Studio Code
         * Cloud: AWS, Azure, Google Cloud
 
-      - 📫 How to reach me:
-        * Telegram: https://t.me/blackrooty
-        * Email: rooty@chm.od.ua
-        * LinkedIn: 
-
     image: /images/green.jpeg
     bottomImage:
       enable: true
