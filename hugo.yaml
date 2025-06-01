@@ -239,9 +239,9 @@ params:
         company: "SlotCatalog"
         companyUrl: "https://slotcatalog.com"
         date: "Feb 2019 - present"
-        featuredLink:
-          enable: true
-          url: "https://slotcatalog.com"
+        # featuredLink:
+        #   enable: true
+        #   url: "https://slotcatalog.com"
         info:
           enable: true
           content: I worked as a devops engineer.
@@ -259,10 +259,10 @@ params:
         companyUrl: "https://clikky.biz"
         date: "Nov 2017 - Okt 2018"
         info:
-          enable: false
-        featuredLink:
           enable: true
-          url: "https://clikky.biz"
+        # featuredLink:
+        #   enable: true
+        #   url: "https://clikky.biz"
         content: |
           - Load balancing: Haproxy, Nginx
           - Containers: Docker
@@ -279,10 +279,13 @@ params:
         company: "KeepSolid/VPNUnlimited"
         companyUrl: "https://seepsolid.com"
         date: "Mar 2015 - Nov 2019"
-        featuredLink:
+        info:
           enable: true
-          url: "https://seepsolid.com"
+        # featuredLink:
+        #   enable: true
+        #   url: "https://seepsolid.com"
         content: |
+          - Load balancing: Haproxy, Nginx
           - Cloud: AWS, Azure, DigitalOcean
           - Containers: Docker Swarm, Kubernetes
           - Database: MySQL, Redis, Elasticsearch
@@ -303,6 +306,8 @@ params:
         company: "111PIX UA"
         companyUrl: "https://111pix.ua"
         date: "Avg 2011 - Mar 2015"
+        info:
+          enable: true
         content: |
           - Configure Linux systems (Gentoo/OpenSuse/CentOS)
           - Monitor site stability, capacity and performance (Nagios/Cacti/Zabbix)
@@ -316,6 +321,8 @@ params:
         company: "FreshLimeStudio"
         companyUrl: "https://freshlimestudio.com"
         date: "Nov 2011 - Jan 2012"
+        info:
+          enable: true
         content: |
           - developing using Python, Javascript
           - developing MySQL data bases
@@ -327,6 +334,8 @@ params:
         company: "Alliance of technologies and telecommunications"
         companyUrl: "https://roznica.com.ua"
         date: "Jul 2009 - Okt 2011"
+        info:
+          enable: true
         content: |
           - developing using Python, Javascript
           - developing MySQL data bases;
@@ -338,6 +347,8 @@ params:
         company: "ICN ISP"
         companyUrl: "https://icn.ua"
         date: "May 2005 - Jun 2009"
+        info:
+          enable: true
         content: |
           - Developing and support Internet node. Node includes Juniper, HP, Cisco, Zyxel, Planet routers and switches, FreeBSD routers and servers, Mikrotik routers, Linux servers.
           - Developing and support Juniper and FreeBSD routers, BGP, routing, firewall, security policy, mail, DNS, SVN servers, Jails Virtualization, ZFS.
