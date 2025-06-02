@@ -14,9 +14,9 @@ outputs:
 
 enableRobotsTXT: true
 
-#services:
-  #googleAnalytics:
-    #id: G-MEASUREMENT_ID
+services:
+  googleAnalytics:
+    id: G-EB1GPQLRBT
   #disqus:
     #shortname: your-disqus-shortname
 
